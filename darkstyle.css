@@ -1,0 +1,492 @@
+.home-dark,
+.home-dark * {
+  box-sizing: border-box;
+}
+
+.home-dark {
+  background: #1b3f54;
+  width: auto;
+  height: 2041px;
+  position: relative;
+  overflow: hidden;
+}
+.ellipse-2 {
+  background: #396680;
+  border-radius: 50%;
+  width: 243px;
+  height: 243px;
+  position: absolute;
+  left: 755px;
+  top: 223px;
+}
+
+.rectangle-10 {
+  background: #ff6464;
+  border-radius: 2px;
+  width: 208px;
+  height: 47px;
+  position: absolute;
+  left: 148px;
+  top: 477px;
+}
+.hi-i-am-Meeket-creative-technologist {
+  color: #d5e2f6;
+  text-align: left;
+  font: 700 44px/60px "Heebo", sans-serif;
+  position: absolute;
+  left: 148px;
+  top: 228px;
+  width: 506px;
+  height: 105px;
+}
+.rough {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 16px "Heebo", sans-serif;
+  position: absolute;
+  left: 148px;
+  top: 373px;
+  width: 497px;
+  height: 66px;
+}
+.works {
+  color: #ffffff;
+  text-align: right;
+  cursor: pointer;
+  font: 500 20px "Heebo", sans-serif;
+  position: absolute;
+  left: 856px;
+  top: 27px;
+  width: 57px;
+  height: 43px;
+}
+.blog {
+  color: #ffffff;
+  text-align: right;
+  cursor: pointer;
+  font: 500 20px "Heebo", sans-serif;
+  position: absolute;
+  left: 882px;
+  top: 27px;
+  width: 106px;
+  height: 43px;
+}
+.contact {
+  color: #ffffff;
+  text-align: right;
+  cursor: pointer;
+  font: 500 20px "Heebo", sans-serif;
+  position: absolute;
+  left: 1021px;
+  top: 27px;
+  width: 71px;
+  height: 43px;
+}
+.download-resume {
+  color: #1b3f54;
+  text-align: center;
+  cursor: pointer;
+  font: 500 18px "Heebo", sans-serif;
+  position: absolute;
+  left: 168px;
+  top: 490px;
+  width: 167px;
+  height: 21px;
+}
+.ellipse-1 {
+  border-radius: 50%;
+  width: 243px;
+  height: 243px;
+  position: absolute;
+  left: 760px;
+  top: 210px;
+}
+.rectangle-23 {
+  background: #396680;
+  width: 100%;
+  height: 396px;
+  position: absolute;
+  left: 0px;
+  top: 595px;
+}
+.rectangle-24 {
+  background: #1b3f54;
+  border-radius: 4px;
+  width: 418px;
+  height: 295px;
+  position: absolute;
+  left: 148px;
+  top: 664px;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}
+.rectangle-25 {
+  background: #1b3f54;
+  border-radius: 4px;
+  width: 418px;
+  height: 295px;
+  position: absolute;
+  left: 586px;
+  top: 664px;
+}
+.making-a-design-system-from-scratch {
+  color: #d5e2f6;
+  text-align: left;
+  font: 700 26px "Heebo", sans-serif;
+  position: absolute;
+  left: 171px;
+  top: 688px;
+  width: 374px;
+  height: 85px;
+}
+.creating-pixel-perfect-icons-in-figma {
+  color: #d5e2f6;
+  text-align: left;
+  font: 700 26px "Heebo", sans-serif;
+  position: absolute;
+  left: 609px;
+  top: 688px;
+  width: 374px;
+  height: 85px;
+}
+.design-pattern {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 18px "Heebo", sans-serif;
+  position: absolute;
+  left: 327px;
+  top: 790px;
+  width: 239px;
+  height: 34px;
+}
+.figma-icon-design {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 18px "Heebo", sans-serif;
+  position: absolute;
+  left: 765px;
+  top: 790px;
+  width: 239px;
+  height: 34px;
+}
+.vector-1 {
+  position: absolute;
+  left: 301px;
+  top: 793px;
+  overflow: visible;
+}
+.vector-2 {
+  position: absolute;
+  left: 740px;
+  top: 791px;
+  overflow: visible;
+}
+._12-feb-2020 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 18px "Heebo", sans-serif;
+  position: absolute;
+  left: 171px;
+  top: 790px;
+  width: 374px;
+  height: 34px;
+}
+._12-feb-20202 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 18px "Heebo", sans-serif;
+  position: absolute;
+  left: 609px;
+  top: 790px;
+  width: 374px;
+  height: 34px;
+}
+.rough2 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 16px "Heebo", sans-serif;
+  position: absolute;
+  left: 171px;
+  top: 835px;
+  width: 368px;
+  height: 117px;
+}
+.rough3 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 16px "Heebo", sans-serif;
+  position: absolute;
+  left: 609px;
+  top: 835px;
+  width: 368px;
+  height: 117px;
+}
+.recent-posts {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 22px/60px "Heebo", sans-serif;
+  position: absolute;
+  left: 148px;
+  top: 602px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.view-all {
+  color: #2dd2f6;
+  text-align: right;
+  font: 400 16px "Heebo", sans-serif;
+  position: absolute;
+  left: 796px;
+  top: 622px;
+  width: 208px;
+  height: 20px;
+}
+.featured-works {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 22px/60px "Heebo", sans-serif;
+  position: absolute;
+  left: 148px;
+  top: 1006px;
+}
+.footer {
+  width: 1152px;
+  height: 182px;
+  position: absolute;
+  left: 0px;
+  top: 1859px;
+}
+.rectangle-40 {
+  background: #1b3f54;
+  width: 1152px;
+  height: 182px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.fb {
+  position: absolute;
+  left: calc(50% - 117px);
+  top: calc(50% - 40px);
+  overflow: visible;
+  cursor: pointer;
+}
+.linkedin {
+  position: absolute;
+  left: calc(50% - -85px);
+  top: calc(50% - 40px);
+  overflow: visible;
+  cursor: pointer;
+}
+.group {
+  position: absolute;
+  inset: 0;
+}
+.tweet {
+  position: absolute;
+  left: 589px;
+  top: 51px;
+  overflow: visible;
+  cursor: pointer;
+}
+.insta {
+  position: absolute;
+  left: 524px;
+  top: 51px;
+  overflow: visible;
+  cursor: pointer;
+}
+.copyright-2020-all-rights-reserved {
+  color: #d5e2f6;
+  text-align: center;
+  font: 400 14px "Heebo", sans-serif;
+  position: absolute;
+  left: 575px;
+  top: calc(50% - -16px);
+}
+.designing-dashboards {
+  color: #d5e2f6;
+  text-align: left;
+  font: 700 30px "Heebo", sans-serif;
+  position: absolute;
+  left: 410px;
+  top: 1077px;
+}
+.vibrant-portraits-of-2020 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 700 30px "Heebo", sans-serif;
+  position: absolute;
+  left: 410px;
+  top: 1312px;
+}
+._36-days-of-malayalam-type {
+  color: #d5e2f6;
+  text-align: left;
+  font: 700 30px "Heebo", sans-serif;
+  position: absolute;
+  left: 410px;
+  top: 1560px;
+}
+.dashboard {
+  color: #a1d3e8;
+  text-align: left;
+  font: 400 20px "Heebo", sans-serif;
+  position: absolute;
+  left: 498px;
+  top: 1137px;
+  width: 374px;
+  height: 34px;
+}
+.illustration {
+  color: #a1d3e8;
+  text-align: left;
+  font: 400 20px "Heebo", sans-serif;
+  position: absolute;
+  left: 498px;
+  top: 1368px;
+  width: 374px;
+  height: 34px;
+}
+.typography {
+  color: #a1d3e8;
+  text-align: left;
+  font: 400 20px "Heebo", sans-serif;
+  position: absolute;
+  left: 498px;
+  top: 1613px;
+  width: 374px;
+  height: 34px;
+}
+.rough4 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 16px "Heebo", sans-serif;
+  position: absolute;
+  left: 410px;
+  top: 1188px;
+  width: 594px;
+  height: 93px;
+}
+.rough5 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 16px "Heebo", sans-serif;
+  position: absolute;
+  left: 410px;
+  top: 1419px;
+  width: 594px;
+  height: 93px;
+}
+.rough6 {
+  color: #d5e2f6;
+  text-align: left;
+  font: 400 16px "Heebo", sans-serif;
+  position: absolute;
+  left: 413px;
+  top: 1679px;
+  width: 507px;
+  height: 93px;
+}
+.rectangle-2 {
+  background: #759ded;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  position: absolute;
+  left: 410px;
+  top: 1141px;
+}
+.rectangle-37 {
+  background: #759ded;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  position: absolute;
+  left: 410px;
+  top: 1372px;
+}
+.rectangle-38 {
+  background: #759ded;
+  border-radius: 16px;
+  width: 62px;
+  height: 25px;
+  position: absolute;
+  left: 410px;
+  top: 1617px;
+}
+._2020 {
+  color: #1b3f54;
+  text-align: left;
+  font: 900 18px/60px "Heebo", sans-serif;
+  position: absolute;
+  left: 420px;
+  top: 1123px;
+}
+._2018 {
+  color: #1b3f54;
+  text-align: left;
+  font: 900 18px/60px "Heebo", sans-serif;
+  position: absolute;
+  left: 420px;
+  top: 1354px;
+}
+._20182 {
+  color: #1b3f54;
+  text-align: left;
+  font: 900 18px/60px "Heebo", sans-serif;
+  position: absolute;
+  left: 420px;
+  top: 1599px;
+}s
+.vector-8 {
+  position: absolute;
+  left: 146px;
+  top: 1283px;
+  transform: translate(0px, -0.5px);
+  overflow: visible;
+}
+.vector-12 {
+  position: absolute;
+  left: 146px;
+  top: 1529px;
+  transform: translate(0px, -0.5px);
+  overflow: visible;
+}
+.vector-13 {
+  position: absolute;
+  left: 146px;
+  top: 1776px;
+  transform: translate(0px, -0.5px);
+  overflow: visible;
+}
+.rectangle-30 {
+  border-radius: 6px;
+  width: 246px;
+  height: 180px;
+  position: absolute;
+  left: 146px;
+  top: 1088px;
+}
+.rectangle-32 {
+  border-radius: 6px;
+  width: 246px;
+  height: 180px;
+  position: absolute;
+  left: 146px;
+  top: 1314px;
+}
+.rectangle-34 {
+  border-radius: 6px;
+  width: 246px;
+  height: 184px;
+  position: absolute;
+  left: 146px;
+  top: 1560px;
+}
+.vector5 {
+  position: absolute;
+  left: 148px;
+  top: 27px;
+  overflow: visible;
+}

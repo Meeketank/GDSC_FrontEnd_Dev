@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+      
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            appearance: none;
+            background: none;
+          }
+          .moon-icon {
+            position: absolute;
+            left: 160px;
+            top: 30px;
+            height: 40px;
+            width: 40px;
+            overflow: visible;
+            cursor: pointer;
+           }
+        
+      </style>
+        <title>Document</title>
+      </head>
+      <body>
+        <div class="home">
+
+        <img id="theme-toggle" class="moon-icon" width="25" height="25" src="moon.png" />
+  
+      <script>
+        // Function to toggle between light and dark themes
+        function toggleDarkMode() {
+          const body = document.body;
+  
+          // Check the current theme
+          const isDarkMode = body.classList.contains('dark-mode');
+  
+          // Toggle the class and save the user's preference to localStorage
+          if (isDarkMode) {
+            body.classList.remove('dark-mode');
+            localStorage.setItem('theme', 'light');
+          } else {
+            body.classList.add('dark-mode');
+            localStorage.setItem('theme', 'dark');
+          }
+        }
+  
+        // Event listener for the moon icon to toggle theme and redirect
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+          themeToggle.addEventListener('click', function () {
+            // Toggle theme
+            toggleDarkMode();
+  
+            // Redirect to darkindex.html
+            window.location.href = 'darkindex.html';
+          });
+        }
+  
+        // Check the user's theme preference from localStorage and apply it
+        const userTheme = localStorage.getItem('theme');
+        if (userTheme === 'dark') {
+          document.body.classList.add('dark-mode');
+        }
+      </script>
+
+      <div class="ellipse-2"></div>
+      <div class="rectangle-10" onclick="startDownload()"></div>
+
+      <script>
+        function startDownload() {
+            // Display a prompt indicating that the download has started
+            alert("Download started!");
+        }
+      </script>
+      <div class="hi-i-am-Meeket-creative-technologist">
+        Hi, I am Meeket,<br />Creative Technologist
+      </div>
+      <div
+        class="amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet"
+      >
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </div>s
+      <div class="works"><a href="work.html">Works</a></div>
+      <div class="blog"><a href="blog.html">Blog</a></div>
+      <div class="contact"><a href="contact.html">Contact</a></div>
+      <div class="download-resume" onclick="startDownload()">Download Resume</div>
+      <img class="ellipse-1" src="SelfImageFormals - Copy.jpg" />
+      <div class="rectangle-23"></div>
+      <div class="rectangle-24"></div>
+      <div class="rectangle-25"></div>
+      <div class="making-a-design-system-from-scratch">
+        Making a design system from scratch
+      </div>
+      <div class="creating-pixel-perfect-icons-in-figma">
+        Creating pixel perfect icons in Figma
+      </div>
+      <div class="design-pattern">Design, Pattern</div>
+      <div class="figma-icon-design">Figma, Icon Design</div>
+      <svg
+        class="vector-1"
+        height="21"
+        viewBox="0 0 0 21"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0V21" stroke="black" />
+      </svg>
+
+      <button
+        class="vector-2"
+        height="21"
+        viewBox="0 0 0 21"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0V21" stroke="black" />
+      </button>>
+
+      <div class="_12-feb-2020">12 Feb 2020</div>
+      <div class="_12-feb-20202">12 Feb 2020</div>
+      <div
+        class="amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet2"
+      >
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </div>
+      <div
+        class="amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet3"
+      >
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </div>
+      <div class="recent-posts">Recent posts</div>
+      <div class="view-all">View all</div>
+      <div class="featured-works">Featured works</div>
+      <div class="footer">
+        <div class="rectangle-40"></div>
+        
+        <a href="https://www.facebook.com/meeketank">
+          <img
+            class="fb"
+            width="40"
+            height="40"
+            fill="none"
+            src="facebook.png"/>    
+          </a>
+  
+          <a href="https://www.linkedin.com/in/meekettank/">
+          <img
+            class="linkedin"
+            width="40"
+            height="40"
+            fill="none"
+            src="link.png"/>    
+          </a>
+  
+          <a href="https://twitter.com/meeketank">
+          <img
+            class="tweet"
+            width="40"
+            height="40"
+            fill="none"
+            src="tweet.png"/>    
+          </a>
+          
+          <a href="https://www.instagram.com/meeketank/">
+          <img
+            class="insta"
+            width="40"
+            height="40"
+            fill="none"
+            src="insta.png"/>
+          </a>
+
+        <div class="copyright-2020-all-rights-reserved"></div>
+      </div>
+      <div class="designing-dashboards">Designing Dashboards</div>
+      <div class="vibrant-portraits-of-2020">Vibrant Portraits of 2020</div>
+      <div class="_36-days-of-malayalam-type">36 Days of Malayalam type</div>
+      <div class="dashboard">Dashboard</div>
+      <div class="illustration">Illustration</div>
+      <div class="typography">Typography</div>
+      <div
+        class="amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet4"
+      >
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </div>
+      <div
+        class="amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet5"
+      >
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </div>
+      <div
+        class="amet-minim-mollit-non-deserunt-ullamco-est-sit-aliqua-dolor-do-amet-sint-velit-officia-consequat-duis-enim-velit-mollit-exercitation-veniam-consequat-sunt-nostrud-amet6"
+      >
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </div>
+      <div class="rectangle-2"></div>
+      <div class="rectangle-37"></div>
+      <div class="rectangle-38"></div>
+      <div class="_2020">2020</div>
+      <div class="_2018">2018</div>
+      <div class="_20182">2018</div>
+      <svg
+        class="vector-8"
+        width="858"
+        viewBox="0 0 858 0"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0L858 7.50087e-05" stroke="#E0E0E0" />
+      </svg>
+
+      <svg
+        class="vector-12"
+        width="858"
+        viewBox="0 0 858 0"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0L858 7.50087e-05" stroke="#E0E0E0" />
+      </svg>
+
+      <svg
+        class="vector-13"
+        width="858"
+        viewBox="0 0 858 0"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0L858 7.50087e-05" stroke="#E0E0E0" />
+      </svg>
+
+      <img class="rectangle-30" src="download.jpg" />
+      <img class="rectangle-32" src="download.jpg"/>
+      <img class="rectangle-34" src="download.jpg" />
+    </div>
+  </body>
+</html>
